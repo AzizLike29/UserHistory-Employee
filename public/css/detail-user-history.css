@@ -1,0 +1,27 @@
+#details-container {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: #555;
+}
+
+.detail-value {
+    padding-left: 10px;
+}
+
+.section-title {
+    background-color: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.document-preview {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #f8f9fa;
+}
