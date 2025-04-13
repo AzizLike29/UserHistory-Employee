@@ -36,8 +36,8 @@
     </div>
     <div class="col-md-6">
         <label for="phone" class="form-label">Phone</label>
-        <input type="tel" class="form-control" id="phone" name="phone" value="{{ $stories->phone ?? '' }}"
-            required>
+        <input type="tel" class="form-control" id="phone" name="phone"
+            oninput="this.value = this.value.replace(/[^0-9]/g, '')" value="{{ $stories->phone ?? '' }}" required>
         <div class="invalid-feedback">Enter a valid phone number</div>
     </div>
     <div class="col-md-6">
